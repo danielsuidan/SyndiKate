@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.bgGreen {
+    background: rgb(82, 160, 170);
+}
+.mgin2{
+    margin: 2rem;
+}
+.radius8{
+    border-radius: 8px;
+}
+.fsize14{
+    font-size: 1.4rem;
+}
+.t-alignR{
+    text-align: right;
+}
+.bder-btm{
+    border-bottom: 1px solid rgba(82, 160, 170, .5);
+}
+.fw600{
+    font-weight: 600;
+}
+.contEvents_all{
+    border: 1px solid rgb(82, 160, 170);
+}
+.contEvents_left{
+    width: 80%;
+}
+.contEvents_right{
+    width: 30%;
+    color: rgb(45, 99, 106);
+}
+.contEvents_colorBox{
+    background-color: rgb(173, 227, 234);
+}
+.contEvents_titleEvent{
+    color: rgb(45, 99, 106);
+}
+.contEvents_descriptEvent{
+    color: rgb(149, 159, 159);
+}

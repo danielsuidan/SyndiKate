@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+input{
+    background: transparent;    
+}
+#mail, #pwd{
+    border: 1px solid #fff;
+    border-radius: 15px;
+    padding: .4rem;
+    outline: none;  
+}
+#mail::placeholder, #pwd::placeholder{
+    color: #fff;
+}
+.fw500{
+    font-weight: 500;
+}
+.mg-auto{
+    margin: 0 auto;
+}
+.mgin04{
+    margin: .4rem;
+}
+.flex{
+    display: flex;
+}
+.flex-col{
+    flex-direction: column;
+} 
+.space-btw{
+    justify-content: space-between;
+}               
+.bg-body{
+    background-image: linear-gradient(to right, red , yellow);
+}
+.bg-white{
+    background: rgba(255,255,255, .3);
+}
+.whiteC{
+    color: #fff;
+}
+.padd05{
+    padding: .5rem;
+}
+.padd1{
+    padding: 1rem;
+}
+.maxW250{
+    max-width: 250px;
+    width: 100%;
+}
+.logo-box{
+    width: 60px;
+}
+.pwdForgor-box{
+    text-align: right;
+}
+.pwdForgot{
+    font-size: .8rem;
+    padding-right: .5rem;
+}
+.register-box{
+    text-align: center;
+}
+.title{
+    font-size: 1.5rem;
+}

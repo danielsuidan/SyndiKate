@@ -1,0 +1,24 @@
+{
+  "name": "syndikate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "firebase": "^5.7.0",
+    "react": "^16.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielsuidan/SyndiKate.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielsuidan/SyndiKate/issues"
+  },
+  "homepage": "https://github.com/danielsuidan/SyndiKate#readme"
+}

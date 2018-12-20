@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+li{
+    list-style-type: none;
+}
+.flex{
+    display: flex;
+}
+.space-btw{
+    justify-content: space-between;
+}
+.wrap{
+    flex-wrap: wrap;
+}
+.space-ar{
+    justify-content: space-around;
+} 
+.maxW{
+    max-width: 90%;
+}
+.maxW50{
+    width: 50%;
+}
+.mAuto{
+    margin: 0 auto;
+}
+.bRadius{
+    border-radius: 50%;
+}
+.mginEW1{
+    margin: 0 1rem;
+}
+.mginEW4{
+    margin: 0 4rem;
+}
+.paddTB1{
+    padding: 1rem 0;
+}
+.paddTB4{
+    padding: 4rem 0;
+}
+.paddEW4{
+    padding: 0 4rem;
+}
+.bderW2{
+    border: 2px solid #fff;
+}
+.bderW4{
+    border: 4px solid #fff;
+}
+.pointer{
+    cursor: pointer;
+}
+.bgWhite{
+    background: #fff;
+}
+.bgGrey{
+    background-color: rgba(255,255,255,.9);
+}
+.main{
+    background: rgb(82, 160, 170);
+}
+.logo-box{
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+}
+.logo{
+    width: 100%;
+}
+.title-box{
+    height: 60px;
+    line-height: 60px;
+    vertical-align: middle;
+}
+.section-two{
+    background-size: cover;
+    width: 100%;
+    position:relative;
+}
+.profile-box{
+    width: 150px;
+    position: relative;
+}
+.profile-img{
+    width: 15vw;
+    height: 15vw;
+    vertical-align: middle;
+}
+.selectImg{
+    opacity: 0;
+    width: 20px;
+}
+.selectIcon{
+    cursor: pointer;
+}
+.boxPenProf{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    transform: translate(0,0);
+    right:0;
+    bottom: 0;
+    z-index: 1;
+}
+.boxPenBg{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    transform: translate(-50%,-50%);
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+}
+.blackPen{
+    width: 12px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+    z-index: 5;
+}
+.imgDest{
+    width: 200px;
+    margin: .5rem;
+}
+.subS-Fotos{
+    max-width: 35%;
+    width: 100%;
+    
+}
+.subS-Post{
+    max-width: 60%;
+    width: 100%;
+}
+.postBox{
+    max-width: 50%;
+}
